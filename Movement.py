@@ -86,3 +86,4 @@ class Movement(Enum):
     D2 = D2
     F2 = F2
     B2 = B2
+

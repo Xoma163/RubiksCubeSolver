@@ -2,12 +2,12 @@ from enum import Enum
 
 
 class Color(Enum):
-    RED = "Red"
-    ORANGE = "Orange"
-    BLUE = "Blue"
-    GREEN = "Green"
-    WHITE = "White"
-    YELLOW = "Yellow"
+    RED = 1
+    ORANGE = 2
+    BLUE = 3
+    GREEN = 4
+    WHITE = 5
+    YELLOW = 6
 
 
 color_code = {

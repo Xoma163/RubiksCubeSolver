@@ -1,5 +1,5 @@
 from Cube2x2 import Cube2x2
-from Cube3x3 import Cube3x3
+from CubeSolver import CubeSolver
 
 
 def main():
@@ -7,10 +7,10 @@ def main():
     cube2x2.shuffle()
     cube2x2.print_state()
 
-    cube3x3 = Cube3x3()
-    cube3x3.shuffle()
-    cube3x3.print_state()
-    pass
+    cs = CubeSolver(cube2x2)
+    solution = cs.solve()
+    print("Solution:")
+    print(cube2x2.prettify_ways(solution))
 
 
 if __name__ == "__main__":
